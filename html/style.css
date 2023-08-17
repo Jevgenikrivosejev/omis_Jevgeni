@@ -1,0 +1,30 @@
+/* 
+tag name
+priority: 1
+*/
+div {
+    color:red
+}
+
+
+/* 
+class name
+priority: 2
+*/
+
+.firstDiv {
+   color: green;
+}
+
+/* 
+id name
+priority: 3
+*/
+
+#firstID{
+    color: blue;
+}
+
+.biggerFont{
+    front-size: 20px;
+}
