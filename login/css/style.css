@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
 
 
+:root{
+    --facebook-color: #1d5db7;
+    --linkedin-color:#3f6498;
+    --google-color:#d21515;
+    --link-color: #525252;
+
+}
+
 body {
     background-color:  #6b99c1;
 
@@ -110,4 +118,90 @@ input[type="submit"]{
     top: 15px;
 
     
+}
+
+
+/*social link */
+
+.socialink {
+   
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+    
+
+    color: #3f6498;
+
+}
+    .facebook {
+        color: var(--facebook-color);
+        border: 2px solid var(--facebook-color);
+    }
+    .linkedin {
+        color: var(--linkedin-color);
+        border: 2px solid var(--linkedin-color);
+    }
+    .google {
+        color: var(--google-color);
+        border: 2px solid var(--google-color);
+
+    }
+
+    .socialink i{
+        font-size: 75%;
+    }
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.footer a:nth-child(2){
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*
+.test:link {
+    color: green;
+
+}
+.test:visited{
+    color: pink;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.test:active{
+    color: cyan;
+
+}
+
+.test:hover{
+    font-size: larger;
+    text-decoration: none;
+    color: blue;
+}
+*/
+
+.footer-bottom{
+    text-align: center;
+    color: var(--link-color);
+
+}
+
+.footer-bottom a:link, .footer-bottom a:visited{
+    color:var(--link-color);
+    text-transform: uppercase;
 }

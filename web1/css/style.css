@@ -1,0 +1,49 @@
+:root{
+    --link-color: #353b3d;
+    --red-color: #ca1515;
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#header-row-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.logo, .user{
+    width: 350px;
+    border: 1px solid red
+
+}
+
+
+/* menu */
+
+nav ul li{
+    list-style: none;
+    display: inline-flex;
+    margin-right: 10px;
+}
+
+nav ul li a:link, nav ul li a:visited{
+    color: var(--link-color) ;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+nav ul li .active{
+    border-bottom: 2px solid var(--red-color);
+    
+}
